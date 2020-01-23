@@ -1,0 +1,15 @@
+﻿  AuthenticationRepositoryTests.cpp
+  CryptographyTests.cpp
+  PermissionTests.cpp
+  SecureDoubleTests.cpp
+  SecureIntTests.cpp
+  SecureStringTests.cpp
+  TimerTests.cpp
+  UnitConverterTests.cpp
+  Compiling...
+     Creating library H:\Year 2 v2\Secure Software\Assignment 2\032\Release\SecSat32Tests.lib and object H:\Year 2 v2\Secure Software\Assignment 2\032\Release\SecSat32Tests.exp
+  Generating code
+  All 941 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SecSat32Tests.vcxproj -> H:\Year 2 v2\Secure Software\Assignment 2\032\Release\SecSat32Tests.dll
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\auxiliary\vs\unittest\include\cppunittest.h(349): warning C26495: Variable 'Microsoft::VisualStudio::CppUnitTestFramework::TestClassImpl::CrtHandlersSetter::oldInvalidParameterHandler' is uninitialized. Always initialize a member variable (type.6).

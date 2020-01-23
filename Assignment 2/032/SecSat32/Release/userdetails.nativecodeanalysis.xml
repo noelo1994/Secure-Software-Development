@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureString::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureString::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureString@@QBEPBDXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>userdetails.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'UserDetails::GetRole' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UserDetails::GetRole</FUNCTION>
+    <DECORATED>?GetRole@UserDetails@@QBE?AW4Role@@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>userdetails.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'UserDetails::GetIsValid' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UserDetails::GetIsValid</FUNCTION>
+    <DECORATED>?GetIsValid@UserDetails@@QBE_NXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>userdetails.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UserDetails::{ctor}</FUNCTION>
+    <DECORATED>??0UserDetails@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>userdetails.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'struct UserDetails', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>UserDetails::{ctor}</FUNCTION>
+    <DECORATED>??0UserDetails@@QAE@ABU0@@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

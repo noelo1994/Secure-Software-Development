@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoggerDecorator::LoggerDecorator' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::{ctor}</FUNCTION>
+    <DECORATED>??0LoggerDecorator@@QAE@PAVLogger@@I@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>logger.h</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Logger::formatType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Logger::{ctor}</FUNCTION>
+    <DECORATED>??0Logger@@QAE@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26433</DEFECTCODE>
+    <DESCRIPTION>Function 'LoggerDecorator::log' should be marked with 'override' (c.128).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::log</FUNCTION>
+    <DECORATED>?log@LoggerDecorator@@EAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class LoggerDecorator' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::log</FUNCTION>
+    <DECORATED>?log@LoggerDecorator@@EAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::encryptDecrypt</FUNCTION>
+    <DECORATED>?encryptDecrypt@LoggerDecorator@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::encryptDecrypt</FUNCTION>
+    <DECORATED>?encryptDecrypt@LoggerDecorator@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

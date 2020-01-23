@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>proofofid.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ProofofID::{ctor}</FUNCTION>
+    <DECORATED>??0ProofofID@@QAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>authenticator.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Authenticator::{ctor}</FUNCTION>
+    <DECORATED>??0Authenticator@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>authenticator.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>Authenticator::authenticateUser</FUNCTION>
+    <DECORATED>?authenticateUser@Authenticator@@QAEPAVProofofID@@AAVSubject@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>authenticator.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26400</DEFECTCODE>
+    <DESCRIPTION>Do not assign the result of an allocation or a function call with an owner&lt;T&gt; return value to a raw pointer, use owner&lt;T&gt; instead (i.11).</DESCRIPTION>
+    <FUNCTION>Authenticator::authenticateUser</FUNCTION>
+    <DECORATED>?authenticateUser@Authenticator@@QAEPAVProofofID@@AAVSubject@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>authenticator.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26402</DEFECTCODE>
+    <DESCRIPTION>Return a scoped object instead of a heap-allocated if it has a move constructor (r.3).</DESCRIPTION>
+    <FUNCTION>Authenticator::authenticateUser</FUNCTION>
+    <DECORATED>?authenticateUser@Authenticator@@QAEPAVProofofID@@AAVSubject@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>authenticator.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Authenticator::encryptDecrypt</FUNCTION>
+    <DECORATED>?encryptDecrypt@Authenticator@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>authenticator.cpp</FILENAME>
+      <LINE>35</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Authenticator::encryptDecrypt</FUNCTION>
+    <DECORATED>?encryptDecrypt@Authenticator@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>authenticatorinfo.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>AuthenticatorInfo::{ctor}</FUNCTION>
+    <DECORATED>??0AuthenticatorInfo@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>binfilelogger.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26433</DEFECTCODE>
+    <DESCRIPTION>Function 'BinFileLogger::log' should be marked with 'override' (c.128).</DESCRIPTION>
+    <FUNCTION>BinFileLogger::log</FUNCTION>
+    <DECORATED>?log@BinFileLogger@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>binfilelogger.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class BinFileLogger' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>BinFileLogger::log</FUNCTION>
+    <DECORATED>?log@BinFileLogger@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>consolelogger.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26433</DEFECTCODE>
+    <DESCRIPTION>Function 'ConsoleLogger::log' should be marked with 'override' (c.128).</DESCRIPTION>
+    <FUNCTION>ConsoleLogger::log</FUNCTION>
+    <DECORATED>?log@ConsoleLogger@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>consolelogger.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class ConsoleLogger' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>ConsoleLogger::log</FUNCTION>
+    <DECORATED>?log@ConsoleLogger@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Electric::average' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Electric::{ctor}</FUNCTION>
+    <DECORATED>??0Electric@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Electric::{ctor}</FUNCTION>
+    <DECORATED>??0Electric@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>Electric::populate</FUNCTION>
+    <DECORATED>?populate@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>Electric::populate</FUNCTION>
+    <DECORATED>?populate@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'x' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Electric::getData</FUNCTION>
+    <DECORATED>?getData@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::getData</FUNCTION>
+    <DECORATED>?getData@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::getData</FUNCTION>
+    <DECORATED>?getData@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::getData</FUNCTION>
+    <DECORATED>?getData@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::getData</FUNCTION>
+    <DECORATED>?getData@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::save</FUNCTION>
+    <DECORATED>?save@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::print</FUNCTION>
+    <DECORATED>?print@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::print</FUNCTION>
+    <DECORATED>?print@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::print</FUNCTION>
+    <DECORATED>?print@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::print</FUNCTION>
+    <DECORATED>?print@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::print</FUNCTION>
+    <DECORATED>?print@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::print</FUNCTION>
+    <DECORATED>?print@Electric@@QAEXXZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>electric.cpp</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Electric::getElec</FUNCTION>
+    <DECORATED>?getElec@Electric@@QAEHH@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Internet::internet' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Internet::{ctor}</FUNCTION>
+    <DECORATED>??0Internet@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Internet::{ctor}</FUNCTION>
+    <DECORATED>??0Internet@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>Internet::populate</FUNCTION>
+    <DECORATED>?populate@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>Internet::populate</FUNCTION>
+    <DECORATED>?populate@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'x' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Internet::populate</FUNCTION>
+    <DECORATED>?populate@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Internet::save</FUNCTION>
+    <DECORATED>?save@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Internet::print</FUNCTION>
+    <DECORATED>?print@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Internet::print</FUNCTION>
+    <DECORATED>?print@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>85</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>Internet::setUsage</FUNCTION>
+    <DECORATED>?setUsage@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>85</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>Internet::setUsage</FUNCTION>
+    <DECORATED>?setUsage@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'x' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Internet::setUsage</FUNCTION>
+    <DECORATED>?setUsage@Internet@@QAEXXZ</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>internet.cpp</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Internet::getUsage</FUNCTION>
+    <DECORATED>?getUsage@Internet@@QAEHH@Z</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoggerDecorator::LoggerDecorator' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::{ctor}</FUNCTION>
+    <DECORATED>??0LoggerDecorator@@QAE@PAVLogger@@I@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>logger.h</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Logger::formatType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Logger::{ctor}</FUNCTION>
+    <DECORATED>??0Logger@@QAE@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26433</DEFECTCODE>
+    <DESCRIPTION>Function 'LoggerDecorator::log' should be marked with 'override' (c.128).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::log</FUNCTION>
+    <DECORATED>?log@LoggerDecorator@@EAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class LoggerDecorator' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::log</FUNCTION>
+    <DECORATED>?log@LoggerDecorator@@EAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::encryptDecrypt</FUNCTION>
+    <DECORATED>?encryptDecrypt@LoggerDecorator@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::encryptDecrypt</FUNCTION>
+    <DECORATED>?encryptDecrypt@LoggerDecorator@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerfactorym.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>LoggerFactoryM::getLogger</FUNCTION>
+    <DECORATED>?getLogger@LoggerFactoryM@@QAEPAVLogger@@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerfactorym.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>LoggerFactoryM::getLogger</FUNCTION>
+    <DECORATED>?getLogger@LoggerFactoryM@@QAEPAVLogger@@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerfactorym.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>LoggerFactoryM::getLogger</FUNCTION>
+    <DECORATED>?getLogger@LoggerFactoryM@@QAEPAVLogger@@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>loggerfactorym.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>LoggerFactoryM::getLogger</FUNCTION>
+    <DECORATED>?getLogger@LoggerFactoryM@@QAEPAVLogger@@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26400</DEFECTCODE>
+    <DESCRIPTION>Do not assign the result of an allocation or a function call with an owner&lt;T&gt; return value to a raw pointer, use owner&lt;T&gt; instead (i.11).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26400</DEFECTCODE>
+    <DESCRIPTION>Do not assign the result of an allocation or a function call with an owner&lt;T&gt; return value to a raw pointer, use owner&lt;T&gt; instead (i.11).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26408</DEFECTCODE>
+    <DESCRIPTION>Avoid malloc() and free(), prefer the nothrow version of new with delete (r.10).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26401</DEFECTCODE>
+    <DESCRIPTION>Do not delete a raw pointer that is not an owner&lt;T&gt; (i.11).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26401</DEFECTCODE>
+    <DESCRIPTION>Do not delete a raw pointer that is not an owner&lt;T&gt; (i.11).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 1 'logger.{vfptr}' in call to 'LoggerDecorator::LoggerDecorator' may be invalid (lifetime.1).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>15</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Variable 'formatType' is uninitialized. Always initialize an object (type.5).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>interface.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Interface::option' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Interface::{ctor}</FUNCTION>
+    <DECORATED>??0Interface@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>interface.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Interface::{ctor}</FUNCTION>
+    <DECORATED>??0Interface@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>interface.cpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Interface::optionSelect</FUNCTION>
+    <DECORATED>?optionSelect@Interface@@QAEXD@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>interface.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Interface::getOption' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Interface::getOption</FUNCTION>
+    <DECORATED>?getOption@Interface@@QAEDXZ</DECORATED>
+    <FUNCLINE>62</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>status.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Status::intTemp' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Status::{ctor}</FUNCTION>
+    <DECORATED>??0Status@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>status.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Status::{ctor}</FUNCTION>
+    <DECORATED>??0Status@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>status.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>Status::getSupplyVoltage</FUNCTION>
+    <DECORATED>?getSupplyVoltage@Status@@QAEHXZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>status.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>Status::getSupplyVoltage</FUNCTION>
+    <DECORATED>?getSupplyVoltage@Status@@QAEHXZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>status.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Status::getSupplyVoltage' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Status::getSupplyVoltage</FUNCTION>
+    <DECORATED>?getSupplyVoltage@Status@@QAEHXZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>status.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>Status::getIntTemp</FUNCTION>
+    <DECORATED>?getIntTemp@Status@@QAEHXZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>status.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>Status::getIntTemp</FUNCTION>
+    <DECORATED>?getIntTemp@Status@@QAEHXZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>status.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Status::getIntTemp' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Status::getIntTemp</FUNCTION>
+    <DECORATED>?getIntTemp@Status@@QAEHXZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>subject.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Subject::{ctor}</FUNCTION>
+    <DECORATED>??0Subject@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Temperature::temperature' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Temperature::{ctor}</FUNCTION>
+    <DECORATED>??0Temperature@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Temperature::{ctor}</FUNCTION>
+    <DECORATED>??0Temperature@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'x' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Temperature::populate</FUNCTION>
+    <DECORATED>?populate@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>Temperature::populate</FUNCTION>
+    <DECORATED>?populate@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>Temperature::populate</FUNCTION>
+    <DECORATED>?populate@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Temperature::print</FUNCTION>
+    <DECORATED>?print@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'x' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Temperature::setTemp</FUNCTION>
+    <DECORATED>?setTemp@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>75</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Temperature::getTemp</FUNCTION>
+    <DECORATED>?getTemp@Temperature@@QAEHH@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>txtfilelogger.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26433</DEFECTCODE>
+    <DESCRIPTION>Function 'TxtFileLogger::log' should be marked with 'override' (c.128).</DESCRIPTION>
+    <FUNCTION>TxtFileLogger::log</FUNCTION>
+    <DECORATED>?log@TxtFileLogger@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>txtfilelogger.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26436</DEFECTCODE>
+    <DESCRIPTION>The type 'class TxtFileLogger' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).</DESCRIPTION>
+    <FUNCTION>TxtFileLogger::log</FUNCTION>
+    <DECORATED>?log@TxtFileLogger@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

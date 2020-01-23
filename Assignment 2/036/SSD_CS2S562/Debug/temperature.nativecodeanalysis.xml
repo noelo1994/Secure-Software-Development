@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Temperature::temperature' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Temperature::{ctor}</FUNCTION>
+    <DECORATED>??0Temperature@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Temperature::{ctor}</FUNCTION>
+    <DECORATED>??0Temperature@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'x' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Temperature::populate</FUNCTION>
+    <DECORATED>?populate@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>Temperature::populate</FUNCTION>
+    <DECORATED>?populate@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>Temperature::populate</FUNCTION>
+    <DECORATED>?populate@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Temperature::print</FUNCTION>
+    <DECORATED>?print@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'x' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Temperature::setTemp</FUNCTION>
+    <DECORATED>?setTemp@Temperature@@QAEXXZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>temperature.cpp</FILENAME>
+      <LINE>75</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Temperature::getTemp</FUNCTION>
+    <DECORATED>?getTemp@Temperature@@QAEHH@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

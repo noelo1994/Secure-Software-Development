@@ -1,0 +1,1725 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>activethermalcontrolsystem.h</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'ActiveThermalControlSystem::GetIsActive' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>ActiveThermalControlSystem::GetIsActive</FUNCTION>
+    <DECORATED>?GetIsActive@ActiveThermalControlSystem@@QBE_NXZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureString::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureString::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureString@@QBEPBDXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>user.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'User::GetRole' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>User::GetRole</FUNCTION>
+    <DECORATED>?GetRole@User@@QBE?AW4Role@@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>user.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'User::SetRole' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>User::SetRole</FUNCTION>
+    <DECORATED>?SetRole@User@@QAEXW4Role@@@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>subject.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Subject', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Subject::{dtor}</FUNCTION>
+    <DECORATED>??1Subject@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>iloginview.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26443</DEFECTCODE>
+    <DESCRIPTION>Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).</DESCRIPTION>
+    <FUNCTION>ILoginView::{dtor}</FUNCTION>
+    <DECORATED>??1ILoginView@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>iloginview.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ILoginView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ILoginView::{dtor}</FUNCTION>
+    <DECORATED>??1ILoginView@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class DialogView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>DialogView::{dtor}</FUNCTION>
+    <DECORATED>??1DialogView@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::GetHandle' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::GetHandle</FUNCTION>
+    <DECORATED>?GetHandle@DialogView@@QBEPAUHWND__@@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginresult.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoginResult::GetIsSuccess' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginResult::GetIsSuccess</FUNCTION>
+    <DECORATED>?GetIsSuccess@LoginResult@@QBE_NXZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>iobserver.h</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class IObserver', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>IObserver::{dtor}</FUNCTION>
+    <DECORATED>??1IObserver@@UAE@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>isatelliteview.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26443</DEFECTCODE>
+    <DESCRIPTION>Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).</DESCRIPTION>
+    <FUNCTION>ISatelliteView::{dtor}</FUNCTION>
+    <DECORATED>??1ISatelliteView@@UAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>isatelliteview.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ISatelliteView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ISatelliteView::{dtor}</FUNCTION>
+    <DECORATED>??1ISatelliteView@@UAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteView::GetUserRequestedAction' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteView::GetUserRequestedAction</FUNCTION>
+    <DECORATED>?GetUserRequestedAction@SatelliteView@@UBE?AW4SatelliteViewUserRequestedAction@@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureDouble@@QBENXZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satellitemodel.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteModel::GetTemperature' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteModel::GetTemperature</FUNCTION>
+    <DECORATED>?GetTemperature@SatelliteModel@@QBE?AVSecureDouble@@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satellitemodel.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteModel::GetSolarRadiationReading' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteModel::GetSolarRadiationReading</FUNCTION>
+    <DECORATED>?GetSolarRadiationReading@SatelliteModel@@QBE?AVSecureDouble@@XZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satellitemodel.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteModel::GetGravityAnomalyReading' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteModel::GetGravityAnomalyReading</FUNCTION>
+    <DECORATED>?GetGravityAnomalyReading@SatelliteModel@@QBE?AVSecureDouble@@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satellitemodel.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteModel::GetIsOperational' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteModel::GetIsOperational</FUNCTION>
+    <DECORATED>?GetIsOperational@SatelliteModel@@QBE_NXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satellitemodel.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteModel::GetIsOutOfOperatingTemperatureRange' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteModel::GetIsOutOfOperatingTemperatureRange</FUNCTION>
+    <DECORATED>?GetIsOutOfOperatingTemperatureRange@SatelliteModel@@QBE_NXZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>userdetails.h</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'UserDetails::GetRole' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UserDetails::GetRole</FUNCTION>
+    <DECORATED>?GetRole@UserDetails@@QBE?AW4Role@@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>userdetails.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'UserDetails::GetIsValid' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UserDetails::GetIsValid</FUNCTION>
+    <DECORATED>?GetIsValid@UserDetails@@QBE_NXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureint32.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureInt32::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureInt32::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureInt32@@QBEHXZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>authenticationrepository.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'SecureString::SecureString' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 'AuthenticationRepository::m_validSessionID''</FUNCTION>
+    <DECORATED>??__E?m_validSessionID@AuthenticationRepository@@0VSecureString@@A@@YAXXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>authenticationrepository.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>AuthenticationRepository::{ctor}</FUNCTION>
+    <DECORATED>??0AuthenticationRepository@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>authenticationrepository.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>AuthenticationRepository::{ctor}</FUNCTION>
+    <DECORATED>??0AuthenticationRepository@@QAE@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>authenticationrepository.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>AuthenticationRepository::CreateUser</FUNCTION>
+    <DECORATED>?CreateUser@AuthenticationRepository@@QBE?AVUser@@ABVSecureString@@0@Z</DECORATED>
+    <FUNCLINE>25</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>authenticationrepository.cpp</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>AuthenticationRepository::ConvertStringToRole</FUNCTION>
+    <DECORATED>?ConvertStringToRole@AuthenticationRepository@@CA?AW4Role@@ABVSecureString@@@Z</DECORATED>
+    <FUNCLINE>171</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>ilogger.h</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ILogger', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ILogger::{dtor}</FUNCTION>
+    <DECORATED>??1ILogger@@UAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>cryptography.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>Cryptography::HashString</FUNCTION>
+    <DECORATED>?HashString@Cryptography@@SA?AVSecureString@@ABV2@C@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>cryptography.cpp</FILENAME>
+      <LINE>43</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'pepper' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Cryptography::GeneratePepper</FUNCTION>
+    <DECORATED>?GeneratePepper@Cryptography@@CACXZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>cryptography.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26472</DEFECTCODE>
+    <DESCRIPTION>Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).</DESCRIPTION>
+    <FUNCTION>Cryptography::GeneratePepper</FUNCTION>
+    <DECORATED>?GeneratePepper@Cryptography@@CACXZ</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::DialogView' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::{ctor}</FUNCTION>
+    <DECORATED>??0DialogView@@QAE@QAUHWND__@@@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'messageIsRetrieved' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>DialogView::Process</FUNCTION>
+    <DECORATED>?Process@DialogView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::Process' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::Process</FUNCTION>
+    <DECORATED>?Process@DialogView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 1 'message.hwnd' in call to 'GetMessageA' may be invalid (lifetime.1).</DESCRIPTION>
+    <FUNCTION>DialogView::Process</FUNCTION>
+    <DECORATED>?Process@DialogView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+        <FILENAME>dialogview.cpp</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::Close' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::Close</FUNCTION>
+    <DECORATED>?Close@DialogView@@UBEXXZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureuint32.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureUInt32::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureUInt32::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureUInt32@@QBEIXZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureuint32.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureUInt32::{ctor}</FUNCTION>
+    <DECORATED>??0SecureUInt32@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureuint32.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureUInt32::SecureUInt32' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureUInt32::{ctor}</FUNCTION>
+    <DECORATED>??0SecureUInt32@@QAE@I@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureuint32.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureUInt32::operator=' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureUInt32::=</FUNCTION>
+    <DECORATED>??4SecureUInt32@@QAEAAV0@I@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loggerdecorator.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoggerDecorator::LoggerDecorator' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoggerDecorator::{ctor}</FUNCTION>
+    <DECORATED>??0LoggerDecorator@@QAE@AAV?$unique_ptr@VILogger@@U?$default_delete@VILogger@@@std@@@std@@W4LogFormatType@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>permissionchecker.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>PermissionChecker::{ctor}</FUNCTION>
+    <DECORATED>??0PermissionChecker@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satellitemodellogger.h</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteModelLogger::SetModel' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteModelLogger::SetModel</FUNCTION>
+    <DECORATED>?SetModel@SatelliteModelLogger@@QAEXPAVSatelliteModel@@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loggedsatellitemodelfactory.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'SatelliteModelLogger::SatelliteModelLogger' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 'LoggedSatelliteModelFactory::m_logger''</FUNCTION>
+    <DECORATED>??__E?m_logger@LoggedSatelliteModelFactory@@0VSatelliteModelLogger@@A@@YAXXZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureint32.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureInt32::{ctor}</FUNCTION>
+    <DECORATED>??0SecureInt32@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureint32.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureInt32::SecureInt32' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureInt32::{ctor}</FUNCTION>
+    <DECORATED>??0SecureInt32@@QAE@H@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureint32.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureInt32::operator=' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureInt32::=</FUNCTION>
+    <DECORATED>??4SecureInt32@@QAEAAV0@H@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securityexceptioncontroller.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecurityExceptionController::SecurityExceptionController' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecurityExceptionController::{ctor}</FUNCTION>
+    <DECORATED>??0SecurityExceptionController@@QAE@V?$unique_ptr@VDialogView@@U?$default_delete@VDialogView@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>sensor.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26443</DEFECTCODE>
+    <DESCRIPTION>Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).</DESCRIPTION>
+    <FUNCTION>Sensor::{dtor}</FUNCTION>
+    <DECORATED>??1Sensor@@UAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>sensor.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Sensor', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Sensor::{dtor}</FUNCTION>
+    <DECORATED>??1Sensor@@UAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>sensor.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Sensor::GetReading' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Sensor::GetReading</FUNCTION>
+    <DECORATED>?GetReading@Sensor@@QBE?AVSecureDouble@@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>gravityanomalysimulator.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>GravityAnomalySimulator::{ctor}</FUNCTION>
+    <DECORATED>??0GravityAnomalySimulator@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginresult.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginResult::{ctor}</FUNCTION>
+    <DECORATED>??0LoginResult@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginresult.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoginResult::LoginResult' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginResult::{ctor}</FUNCTION>
+    <DECORATED>??0LoginResult@@QAE@VUser@@@Z</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginresult.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'struct LoginResult', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>LoginResult::{ctor}</FUNCTION>
+    <DECORATED>??0LoginResult@@QAE@ABU0@@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginresult.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoginResult::LoginResult' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginResult::{ctor}</FUNCTION>
+    <DECORATED>??0LoginResult@@QAE@ABU0@@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>isettingsview.h</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26443</DEFECTCODE>
+    <DESCRIPTION>Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).</DESCRIPTION>
+    <FUNCTION>ISettingsView::{dtor}</FUNCTION>
+    <DECORATED>??1ISettingsView@@UAE@XZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>isettingsview.h</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ISettingsView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ISettingsView::{dtor}</FUNCTION>
+    <DECORATED>??1ISettingsView@@UAE@XZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingsview.h</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SettingsView::GetUserRequestedAction' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SettingsView::GetUserRequestedAction</FUNCTION>
+    <DECORATED>?GetUserRequestedAction@SettingsView@@UBE?AW4SettingsViewUserRequestedAction@@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingsview.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SettingsView::GetRequestedLoggerConfiguration' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SettingsView::GetRequestedLoggerConfiguration</FUNCTION>
+    <DECORATED>?GetRequestedLoggerConfiguration@SettingsView@@UBE?AU?$pair@W4LoggerType@@W4LogFormatType@@@std@@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginView::{ctor}</FUNCTION>
+    <DECORATED>??0LoginView@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoginView::Process' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginView::Process</FUNCTION>
+    <DECORATED>?Process@LoginView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 1 'message.hwnd' in call to 'GetMessageA' may be invalid (lifetime.1).</DESCRIPTION>
+    <FUNCTION>LoginView::Process</FUNCTION>
+    <DECORATED>?Process@LoginView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+        <FILENAME>loginview.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'messageIsRetrieved' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>LoginView::Process</FUNCTION>
+    <DECORATED>?Process@LoginView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoginView::ShowInvalidLoginWarning' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginView::ShowInvalidLoginWarning</FUNCTION>
+    <DECORATED>?ShowInvalidLoginWarning@LoginView@@UAEXXZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>LoginView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@LoginView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>LoginView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@LoginView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>LoginView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@LoginView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26414</DEFECTCODE>
+    <DESCRIPTION>Move, copy, reassign or reset a local smart pointer 'password' (r.5).</DESCRIPTION>
+    <FUNCTION>LoginView::ProcessDialogMessages</FUNCTION>
+    <DECORATED>?ProcessDialogMessages@LoginView@@AAEHII@Z</DECORATED>
+    <FUNCLINE>80</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26414</DEFECTCODE>
+    <DESCRIPTION>Move, copy, reassign or reset a local smart pointer 'userID' (r.5).</DESCRIPTION>
+    <FUNCTION>LoginView::ProcessDialogMessages</FUNCTION>
+    <DECORATED>?ProcessDialogMessages@LoginView@@AAEHII@Z</DECORATED>
+    <FUNCLINE>80</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>random.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'std::random_device::random_device' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 'Random::m_seedGenerator''</FUNCTION>
+    <DECORATED>??__E?m_seedGenerator@Random@@0Vrandom_device@std@@A@@YAXXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>random.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>60</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'std::random_device::operator()' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 'Random::m_randomNumberGenerator''</FUNCTION>
+    <DECORATED>??__E?m_randomNumberGenerator@Random@@0V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@A@@YAXXZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>random.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'std::mersenne_twister_engine&lt;unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253&gt;::mersenne_twister_engine&lt;unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253&gt;' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 'Random::m_randomNumberGenerator''</FUNCTION>
+    <DECORATED>??__E?m_randomNumberGenerator@Random@@0V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@A@@YAXXZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>random.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'distribution' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Random::GetRandom</FUNCTION>
+    <DECORATED>?GetRandom@Random@@SA?AVSecureDouble@@ABV2@0@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>random.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'distribution' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Random::GetRandom</FUNCTION>
+    <DECORATED>?GetRandom@Random@@SA?AVSecureInt32@@HH@Z</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::{ctor}</FUNCTION>
+    <DECORATED>??0SecureDouble@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::SecureDouble' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::{ctor}</FUNCTION>
+    <DECORATED>??0SecureDouble@@QAE@N@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::operator=' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::=</FUNCTION>
+    <DECORATED>??4SecureDouble@@QAEAAV0@N@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class SecureDouble', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>SecureDouble::=</FUNCTION>
+    <DECORATED>??4SecureDouble@@QAEAAV0@V0@@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::ClearFlags' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::ClearFlags</FUNCTION>
+    <DECORATED>?ClearFlags@SecureDouble@@CAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureString::{ctor}</FUNCTION>
+    <DECORATED>??0SecureString@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>SecureString::{ctor}</FUNCTION>
+    <DECORATED>??0SecureString@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class SecureString', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>SecureString::{dtor}</FUNCTION>
+    <DECORATED>??1SecureString@@QAE@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'Clear()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>SecureString::{dtor}</FUNCTION>
+    <DECORATED>??1SecureString@@QAE@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>SecureString::+=</FUNCTION>
+    <DECORATED>??YSecureString@@QAEAAV0@ABV0@@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>SecureString::+=</FUNCTION>
+    <DECORATED>??YSecureString@@QAEAAV0@ABV0@@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>SecureString::+=</FUNCTION>
+    <DECORATED>??YSecureString@@QAEAAV0@ABV0@@Z</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'currentStringSize' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>SecureString::GetLength</FUNCTION>
+    <DECORATED>?GetLength@SecureString@@QBEIXZ</DECORATED>
+    <FUNCLINE>59</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>SecureString::SetValue</FUNCTION>
+    <DECORATED>?SetValue@SecureString@@QAEXIQBD@Z</DECORATED>
+    <FUNCLINE>72</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'value' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>SecureString::SetValue</FUNCTION>
+    <DECORATED>?SetValue@SecureString@@QAEXIQBD@Z</DECORATED>
+    <FUNCLINE>72</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>SecureString::SetValue</FUNCTION>
+    <DECORATED>?SetValue@SecureString@@QAEXIQBD@Z</DECORATED>
+    <FUNCLINE>72</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>90</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>SecureString::SetValue</FUNCTION>
+    <DECORATED>?SetValue@SecureString@@QAEXIQBD@Z</DECORATED>
+    <FUNCLINE>72</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>98</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>SecureString::AddChar</FUNCTION>
+    <DECORATED>?AddChar@SecureString@@AAEXD@Z</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>SecureString::AddChar</FUNCTION>
+    <DECORATED>?AddChar@SecureString@@AAEXD@Z</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>SecureString::AddChar</FUNCTION>
+    <DECORATED>?AddChar@SecureString@@AAEXD@Z</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>SecureString::AddChar</FUNCTION>
+    <DECORATED>?AddChar@SecureString@@AAEXD@Z</DECORATED>
+    <FUNCLINE>93</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>110</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureString::Clear' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureString::Clear</FUNCTION>
+    <DECORATED>?Clear@SecureString@@QAEXXZ</DECORATED>
+    <FUNCLINE>110</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26401</DEFECTCODE>
+    <DESCRIPTION>Do not delete a raw pointer that is not an owner&lt;T&gt; (i.11).</DESCRIPTION>
+    <FUNCTION>SecureString::Clear</FUNCTION>
+    <DECORATED>?Clear@SecureString@@QAEXXZ</DECORATED>
+    <FUNCLINE>110</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26409</DEFECTCODE>
+    <DESCRIPTION>Avoid calling new and delete explicitly, use std::make_unique&lt;T&gt; instead (r.11).</DESCRIPTION>
+    <FUNCTION>SecureString::Clear</FUNCTION>
+    <DECORATED>?Clear@SecureString@@QAEXXZ</DECORATED>
+    <FUNCLINE>110</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securityexceptionview.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecurityExceptionView::{ctor}</FUNCTION>
+    <DECORATED>??0SecurityExceptionView@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securityexceptionview.cpp</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecurityExceptionView::ProcessDialogMessages' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecurityExceptionView::ProcessDialogMessages</FUNCTION>
+    <DECORATED>?ProcessDialogMessages@SecurityExceptionView@@CGHQAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingsview.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>SettingsView::Process</FUNCTION>
+    <DECORATED>?Process@SettingsView@@UAE_NXZ</DECORATED>
+    <FUNCLINE>66</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingsview.cpp</FILENAME>
+      <LINE>157</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>SettingsView::GetRequestedUserAccessChange</FUNCTION>
+    <DECORATED>?GetRequestedUserAccessChange@SettingsView@@AAE_NXZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingsview.cpp</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>SettingsView::GetRequestedLoggerConfiguration</FUNCTION>
+    <DECORATED>?GetRequestedLoggerConfiguration@SettingsView@@AAE_NXZ</DECORATED>
+    <FUNCLINE>170</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingscontroller.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26489</DEFECTCODE>
+    <DESCRIPTION>Don't dereference a pointer that may be invalid: '&amp;requestedUserRoleChange.first'. 'requestedUserRoleChange.std::pair&lt;std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;,enum Role&gt;::first' may have been invalidated at line 64 (lifetime.1).</DESCRIPTION>
+    <FUNCTION>SettingsController::HandleChangeUserRoleRequest</FUNCTION>
+    <DECORATED>?HandleChangeUserRoleRequest@SettingsController@@ABEXXZ</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+        <FILENAME>settingscontroller.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingscontroller.cpp</FILENAME>
+      <LINE>77</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'requestedLoggerConfiguration' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>SettingsController::HandleChangeLoggingConfigurationRequest</FUNCTION>
+    <DECORATED>?HandleChangeLoggingConfigurationRequest@SettingsController@@ABEXXZ</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>solarradiationsimulator.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SolarRadiationSimulator::{ctor}</FUNCTION>
+    <DECORATED>??0SolarRadiationSimulator@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satellitecontroller.cpp</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'temperatureReading' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>SatelliteController::SetViewTemperatureDisplay</FUNCTION>
+    <DECORATED>?SetViewTemperatureDisplay@SatelliteController@@ABEXXZ</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteView::{ctor}</FUNCTION>
+    <DECORATED>??0SatelliteView@@QAE@XZ</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteView::ShowTemperatureWarning' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteView::ShowTemperatureWarning</FUNCTION>
+    <DECORATED>?ShowTemperatureWarning@SatelliteView@@UBEXXZ</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteView::HideTemperatureWarning' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteView::HideTemperatureWarning</FUNCTION>
+    <DECORATED>?HideTemperatureWarning@SatelliteView@@UBEXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteView::IndicateATCSPermissionDenied' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteView::IndicateATCSPermissionDenied</FUNCTION>
+    <DECORATED>?IndicateATCSPermissionDenied@SatelliteView@@UBEXXZ</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteView::IndicateSelfDestructPermissionDenied' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteView::IndicateSelfDestructPermissionDenied</FUNCTION>
+    <DECORATED>?IndicateSelfDestructPermissionDenied@SatelliteView@@UBEXXZ</DECORATED>
+    <FUNCLINE>64</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SatelliteView::IndicateSettingsPermissionDenied' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteView::IndicateSettingsPermissionDenied</FUNCTION>
+    <DECORATED>?IndicateSettingsPermissionDenied@SatelliteView@@UBEXXZ</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>85</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>SatelliteView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@SatelliteView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>SatelliteView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@SatelliteView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>SatelliteView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@SatelliteView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>123</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>SatelliteView::ProcessDialogMessages</FUNCTION>
+    <DECORATED>?ProcessDialogMessages@SatelliteView@@AAEHPAUHWND__@@II@Z</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>SatelliteView::ProcessDialogMessages</FUNCTION>
+    <DECORATED>?ProcessDialogMessages@SatelliteView@@AAEHPAUHWND__@@II@Z</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satelliteview.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>SatelliteView::ProcessDialogMessages</FUNCTION>
+    <DECORATED>?ProcessDialogMessages@SatelliteView@@AAEHPAUHWND__@@II@Z</DECORATED>
+    <FUNCLINE>104</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>satellitemodel.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SatelliteModel::{ctor}</FUNCTION>
+    <DECORATED>??0SatelliteModel@@QAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>subject.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Symbol 'observer' is never tested for nullness, it can be marked as not_null (f.23).</DESCRIPTION>
+    <FUNCTION>Subject::NotifyObservers</FUNCTION>
+    <DECORATED>?NotifyObservers@Subject@@IBEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>timer.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Timer', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Timer::{dtor}</FUNCTION>
+    <DECORATED>??1Timer@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>timer.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26447</DEFECTCODE>
+    <DESCRIPTION>The function is declared 'noexcept' but calls function 'Stop()' which may throw exceptions (f.6).</DESCRIPTION>
+    <FUNCTION>Timer::{dtor}</FUNCTION>
+    <DECORATED>??1Timer@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>userdetails.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>UserDetails::{ctor}</FUNCTION>
+    <DECORATED>??0UserDetails@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>userdetails.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'struct UserDetails', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>UserDetails::{ctor}</FUNCTION>
+    <DECORATED>??0UserDetails@@QAE@ABU0@@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

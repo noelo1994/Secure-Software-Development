@@ -1,0 +1,4 @@
+﻿Source.obj : error LNK2005: "public: class Logger * __thiscall LoggerFactory::getLogger(void)" (?getLogger@LoggerFactory@@QAEPAVLogger@@XZ) already defined in Logger.obj
+Logger.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Logger::log(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?log@Logger@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Source.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Logger::log(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?log@Logger@@UAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+H:\Year 2 v2\Secure Software\Assignment 1\Project4\Debug\Project4.exe : fatal error LNK1120: 1 unresolved externals

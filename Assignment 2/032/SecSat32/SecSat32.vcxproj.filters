@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SatelliteModel.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitConverter.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogView.cpp">
+      <Filter>Views\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginView.cpp">
+      <Filter>Views\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SatelliteView.cpp">
+      <Filter>Views\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityExceptionView.cpp">
+      <Filter>Views\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureDouble.cpp">
+      <Filter>Secure Types\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureString.cpp">
+      <Filter>Secure Types\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarRadiationSimulator.cpp">
+      <Filter>Sensors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityAnomalySimulator.cpp">
+      <Filter>Sensors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KelvinSimulator.cpp">
+      <Filter>Sensors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryptography.cpp">
+      <Filter>Authentication / Authorisation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthenticationRepository.cpp">
+      <Filter>Authentication / Authorisation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDetails.cpp">
+      <Filter>Authentication / Authorisation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginResult.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>Sensors\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PermissionChecker.cpp">
+      <Filter>Authentication / Authorisation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggedSatelliteModelFactory.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SatelliteModelLogger.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsView.cpp">
+      <Filter>Views\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveThermalControlSystem.cpp">
+      <Filter>Other\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthenticationFactory.cpp">
+      <Filter>Authentication / Authorisation\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerDecorator.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerFactory.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryLogger.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLogger.cpp">
+      <Filter>Logging\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SatelliteController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityExceptionController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsController.cpp">
+      <Filter>Controllers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureInt32.cpp">
+      <Filter>Secure Types\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureUInt32.cpp">
+      <Filter>Secure Types\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SatelliteModel.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitConverter.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityException.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginView.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteView.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityExceptionView.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogView.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILoginView.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISatelliteView.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureString.h">
+      <Filter>Secure Types\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureDouble.h">
+      <Filter>Secure Types\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarRadiationSimulator.h">
+      <Filter>Sensors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityAnomalySimulator.h">
+      <Filter>Sensors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KelvinSimulator.h">
+      <Filter>Sensors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryptography.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthenticationRepository.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDetails.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginResult.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Sensors\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveThermalControlSystem.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteViewUserRequestedAction.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Role.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceType.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessLevel.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PermissionChecker.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggedSatelliteModelFactory.h">
+      <Filter>Other\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteModelLogger.h">
+      <Filter>Logging\Header Filles</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsView.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsViewUserRequestedAction.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthenticationFactory.h">
+      <Filter>Authentication / Authorisation\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ISettingsView.h">
+      <Filter>Views\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ILogger.h">
+      <Filter>Logging\Header Filles</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerType.h">
+      <Filter>Logging\Header Filles</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFormatType.h">
+      <Filter>Logging\Header Filles</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerDecorator.h">
+      <Filter>Logging\Header Filles</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerFactory.h">
+      <Filter>Logging\Header Filles</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryLogger.h">
+      <Filter>Logging\Header Filles</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLogger.h">
+      <Filter>Logging\Header Filles</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SatelliteController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityExceptionController.h">
+      <Filter>Controllers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureInt32.h">
+      <Filter>Secure Types\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureUInt32.h">
+      <Filter>Secure Types\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\Satellite.bmp">
+      <Filter>Views\Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Radioactive.bmp">
+      <Filter>Views\Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Physics.bmp">
+      <Filter>Views\Resource Files</Filter>
+    </Image>
+    <Image Include="Images\EarthCorner.bmp">
+      <Filter>Views\Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Thermometer.bmp">
+      <Filter>Views\Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Warning.bmp">
+      <Filter>Views\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Views">
+      <UniqueIdentifier>{6a063c5a-fbca-4361-945b-ba1288329742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views\Header Files">
+      <UniqueIdentifier>{f442c694-fc62-4e6d-a02f-74cf784abd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views\Source Files">
+      <UniqueIdentifier>{1cb81376-093b-4346-8ccd-7ccd838f5ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views\Resource Files">
+      <UniqueIdentifier>{cb61056f-6e15-4cf1-abfb-1fa6489bae16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensors">
+      <UniqueIdentifier>{dce48bb7-2ab9-487b-b398-3f01fd678325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensors\Source Files">
+      <UniqueIdentifier>{b6d65859-cd5b-43ab-815e-f7884ded4820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensors\Header Files">
+      <UniqueIdentifier>{229640cc-5558-4185-854a-e8f0c9622755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{2733e911-882c-4d9c-9bbb-515c9fc723bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Source Files">
+      <UniqueIdentifier>{dbba722f-81c4-4544-ab0d-7146a41c1a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Header Files">
+      <UniqueIdentifier>{57305b2a-c88c-4cbe-bd27-0233098da949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Secure Types">
+      <UniqueIdentifier>{373b1476-a8c6-4406-8856-94b72a643518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Secure Types\Header Files">
+      <UniqueIdentifier>{13c022b6-1c52-4360-9972-762cd24f3f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Secure Types\Source Files">
+      <UniqueIdentifier>{cf1c9343-cd02-4e3d-b78d-cae1925ac82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Authentication / Authorisation">
+      <UniqueIdentifier>{c47479b4-ed1c-4c11-bb06-55c22aa09f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Authentication / Authorisation\Header Files">
+      <UniqueIdentifier>{a364599b-48dc-4647-a874-302ace144949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Authentication / Authorisation\Source Files">
+      <UniqueIdentifier>{8c0fe493-8044-44b7-ad5e-ab6433b40d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{b6770277-5bba-4e93-a78d-75f5c931e55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Header Filles">
+      <UniqueIdentifier>{08200bb6-ce34-4ff8-b06a-bed5bae5f8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging\Source Files">
+      <UniqueIdentifier>{921a34bb-11c2-4dd7-921d-d2dadf888ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers">
+      <UniqueIdentifier>{3b461a87-3088-43be-8d08-64c5d5d13257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\Header Files">
+      <UniqueIdentifier>{5e2f782f-f2d5-405c-8dbc-c7137bb2c870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controllers\Source Files">
+      <UniqueIdentifier>{1eb3fc01-1d13-46e8-8421-769b9d8927a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SecSat32.rc">
+      <Filter>Views\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

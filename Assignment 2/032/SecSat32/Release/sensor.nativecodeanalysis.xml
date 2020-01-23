@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureDouble@@QBENXZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>subject.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Subject', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Subject::{dtor}</FUNCTION>
+    <DECORATED>??1Subject@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>sensor.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26443</DEFECTCODE>
+    <DESCRIPTION>Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).</DESCRIPTION>
+    <FUNCTION>Sensor::{dtor}</FUNCTION>
+    <DECORATED>??1Sensor@@UAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>sensor.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Sensor', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Sensor::{dtor}</FUNCTION>
+    <DECORATED>??1Sensor@@UAE@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>sensor.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Sensor::GetReading' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Sensor::GetReading</FUNCTION>
+    <DECORATED>?GetReading@Sensor@@QBE?AVSecureDouble@@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,103 @@
+﻿  Authenticator.cpp
+  AuthenticatorInfo.cpp
+  BinFileLogger.cpp
+  ConsoleLogger.cpp
+  Electric.cpp
+  Internet.cpp
+  LoggerDecorator.cpp
+  LoggerFactoryM.cpp
+  main.cpp
+  Interface.cpp
+  ProofofID.cpp
+  Status.cpp
+  Subject.cpp
+  Temperature.cpp
+  TxtFileLogger.cpp
+  Compiling...
+  Generating Code...
+  SSD_CS2S562.vcxproj -> H:\Year 2 v2\Secure Software\Assignment 2\036\Debug\SSD_CS2S562.exe
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\proofofid.h(12): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\authenticator.cpp(3): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\authenticator.cpp(21): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\authenticator.cpp(21): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\authenticator.cpp(27): warning C26402: Return a scoped object instead of a heap-allocated if it has a move constructor (r.3).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\authenticator.cpp(35): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\authenticator.cpp(35): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\authenticatorinfo.cpp(3): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\binfilelogger.cpp(5): warning C26433: Function 'BinFileLogger::log' should be marked with 'override' (c.128).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\binfilelogger.cpp(5): warning C26436: The type 'class BinFileLogger' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\consolelogger.cpp(5): warning C26433: Function 'ConsoleLogger::log' should be marked with 'override' (c.128).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\consolelogger.cpp(5): warning C26436: The type 'class ConsoleLogger' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(4): warning C26495: Variable 'Electric::average' is uninitialized. Always initialize a member variable (type.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(8): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(8): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(23): warning C26496: The variable 'x' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(23): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(23): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(23): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(23): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(38): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(53): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(54): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(55): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(56): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(58): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(86): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\electric.cpp(112): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(4): warning C26495: Variable 'Internet::internet' is uninitialized. Always initialize a member variable (type.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(8): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(8): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(11): warning C26496: The variable 'x' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(24): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(39): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(68): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(85): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(85): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(86): warning C26496: The variable 'x' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\internet.cpp(95): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerdecorator.cpp(5): warning C26440: Function 'LoggerDecorator::LoggerDecorator' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\logger.h(15): warning C26495: Variable 'Logger::formatType' is uninitialized. Always initialize a member variable (type.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerdecorator.cpp(7): warning C26433: Function 'LoggerDecorator::log' should be marked with 'override' (c.128).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerdecorator.cpp(7): warning C26436: The type 'class LoggerDecorator' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerdecorator.cpp(16): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerdecorator.cpp(16): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerfactorym.cpp(23): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerfactorym.cpp(13): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerfactorym.cpp(16): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\loggerfactorym.cpp(19): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(14): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(14): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(20): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(20): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(44): warning C26408: Avoid malloc() and free(), prefer the nothrow version of new with delete (r.10).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(47): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(47): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(48): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(48): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(20): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 1 'logger.{vfptr}' in call to 'LoggerDecorator::LoggerDecorator' may be invalid (lifetime.1).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\main.cpp(11): warning C26494: Variable 'formatType' is uninitialized. Always initialize an object (type.5).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\interface.cpp(8): warning C26495: Variable 'Interface::option' is uninitialized. Always initialize a member variable (type.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\interface.cpp(8): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\interface.cpp(47): warning C26444: Avoid unnamed objects with custom construction and destruction (es.84).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\interface.cpp(62): warning C26440: Function 'Interface::getOption' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\status.cpp(4): warning C26495: Variable 'Status::intTemp' is uninitialized. Always initialize a member variable (type.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\status.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\status.cpp(17): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\status.cpp(17): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\status.cpp(15): warning C26440: Function 'Status::getSupplyVoltage' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\status.cpp(24): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\status.cpp(24): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\status.cpp(22): warning C26440: Function 'Status::getIntTemp' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\subject.cpp(8): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\temperature.cpp(4): warning C26495: Variable 'Temperature::temperature' is uninitialized. Always initialize a member variable (type.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\temperature.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\temperature.cpp(10): warning C26496: The variable 'x' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\temperature.cpp(7): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\temperature.cpp(7): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\temperature.cpp(18): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\temperature.cpp(66): warning C26496: The variable 'x' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\temperature.cpp(75): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\txtfilelogger.cpp(5): warning C26433: Function 'TxtFileLogger::log' should be marked with 'override' (c.128).
+h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562\txtfilelogger.cpp(5): warning C26436: The type 'class TxtFileLogger' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).

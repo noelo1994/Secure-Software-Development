@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>interface.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Interface::option' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Interface::{ctor}</FUNCTION>
+    <DECORATED>??0Interface@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>interface.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Interface::{ctor}</FUNCTION>
+    <DECORATED>??0Interface@@QAE@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>interface.cpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>Interface::optionSelect</FUNCTION>
+    <DECORATED>?optionSelect@Interface@@QAEXD@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\036\ssd_cs2s562</FILEPATH>
+      <FILENAME>interface.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'Interface::getOption' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>Interface::getOption</FUNCTION>
+    <DECORATED>?getOption@Interface@@QAEDXZ</DECORATED>
+    <FUNCLINE>62</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

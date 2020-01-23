@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureuint32.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureUInt32::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureUInt32::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureUInt32@@QBEIXZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureuint32.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureUInt32::{ctor}</FUNCTION>
+    <DECORATED>??0SecureUInt32@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureuint32.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureUInt32::SecureUInt32' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureUInt32::{ctor}</FUNCTION>
+    <DECORATED>??0SecureUInt32@@QAE@I@Z</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>secureuint32.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureUInt32::operator=' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureUInt32::=</FUNCTION>
+    <DECORATED>??4SecureUInt32@@QAEAAV0@I@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

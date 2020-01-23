@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'std::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;::basic_string&lt;char,std::char_traits&lt;char&gt;,std::allocator&lt;char&gt; &gt;' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 'login''</FUNCTION>
+    <DECORATED>??__Elogin@@YAXXZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>85</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'TemptoSave'.</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>75</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'TemptoSave' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'TemptoSave' is an Output from 'strncpy_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h:331)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+        <FILENAME>sensors.cpp</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'TemptoSave' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26408</DEFECTCODE>
+    <DESCRIPTION>Avoid malloc() and free(), prefer the nothrow version of new with delete (r.10).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26408</DEFECTCODE>
+    <DESCRIPTION>Avoid malloc() and free(), prefer the nothrow version of new with delete (r.10).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26477</DEFECTCODE>
+    <DESCRIPTION>Use 'nullptr' rather than 0 or NULL (es.47).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>116</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>133</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Variable 'tempLoaded' is uninitialized. Always initialize an object (type.5).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>165</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'temp' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'tempF' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'bytesWritten' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>151</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'bytesRead' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'TemptoSave': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>145</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'tempLoaded': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>165</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Sensor::Temperature</FUNCTION>
+    <DECORATED>?Temperature@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>180</LINE>
+      <COLUMN>72</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Current</FUNCTION>
+    <DECORATED>?Current@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'currentspeed' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Current</FUNCTION>
+    <DECORATED>?Current@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'counter' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Current</FUNCTION>
+    <DECORATED>?Current@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>180</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Sensor::Current</FUNCTION>
+    <DECORATED>?Current@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>186</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Variable 'distance' is uninitialized. Always initialize an object (type.5).</DESCRIPTION>
+    <FUNCTION>Sensor::Depth</FUNCTION>
+    <DECORATED>?Depth@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>192</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Depth</FUNCTION>
+    <DECORATED>?Depth@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Depth</FUNCTION>
+    <DECORATED>?Depth@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'time' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Depth</FUNCTION>
+    <DECORATED>?Depth@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>190</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'count' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>Sensor::Depth</FUNCTION>
+    <DECORATED>?Depth@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>192</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Sensor::Depth</FUNCTION>
+    <DECORATED>?Depth@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\006\coursework</FILEPATH>
+      <FILENAME>sensors.cpp</FILENAME>
+      <LINE>195</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Sensor::Depth</FUNCTION>
+    <DECORATED>?Depth@Sensor@@AAEXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

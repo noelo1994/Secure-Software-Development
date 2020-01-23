@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SecSat32", "SecSat32\SecSat32.vcxproj", "{D69AE2DB-3B21-4F2F-B601-FFAE16BBD942}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SecSat32Launcher", "SecSat32Launcher\SecSat32Launcher.vcxproj", "{9F05A95C-6DFD-42AF-A469-7807FD05C7E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SecSat32Tests", "SecSat32Tests\SecSat32Tests.vcxproj", "{E5217373-4A1A-47F5-9EE4-C03817C297C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D69AE2DB-3B21-4F2F-B601-FFAE16BBD942}.Debug|x86.ActiveCfg = Debug|Win32
+		{D69AE2DB-3B21-4F2F-B601-FFAE16BBD942}.Debug|x86.Build.0 = Debug|Win32
+		{D69AE2DB-3B21-4F2F-B601-FFAE16BBD942}.Release|x86.ActiveCfg = Release|Win32
+		{D69AE2DB-3B21-4F2F-B601-FFAE16BBD942}.Release|x86.Build.0 = Release|Win32
+		{9F05A95C-6DFD-42AF-A469-7807FD05C7E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F05A95C-6DFD-42AF-A469-7807FD05C7E1}.Debug|x86.Build.0 = Debug|Win32
+		{9F05A95C-6DFD-42AF-A469-7807FD05C7E1}.Release|x86.ActiveCfg = Release|Win32
+		{9F05A95C-6DFD-42AF-A469-7807FD05C7E1}.Release|x86.Build.0 = Release|Win32
+		{E5217373-4A1A-47F5-9EE4-C03817C297C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{E5217373-4A1A-47F5-9EE4-C03817C297C0}.Debug|x86.Build.0 = Debug|Win32
+		{E5217373-4A1A-47F5-9EE4-C03817C297C0}.Release|x86.ActiveCfg = Release|Win32
+		{E5217373-4A1A-47F5-9EE4-C03817C297C0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

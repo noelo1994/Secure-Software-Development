@@ -1,0 +1,10 @@
+
+// The entry point for the solution is defined in SecSat32.lib.
+// The code is built as a static library to allow it to be unit tested from SecSat32Tests.
+// This project builds as a .exe, neccessary for the application to run.
+// References to the resources contained in SecSat32 are required for the window to be displayed correctly.
+
+// The user database is stored in this project to simplify use of a relative file path from code.
+// A copy of the user database is made in the output directory when the project is built.
+
+// This project also seems to need at least one source file in order to use the entry point in SecSat32.

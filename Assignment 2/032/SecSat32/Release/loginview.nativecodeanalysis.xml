@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>subject.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class Subject', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>Subject::{dtor}</FUNCTION>
+    <DECORATED>??1Subject@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>iloginview.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26443</DEFECTCODE>
+    <DESCRIPTION>Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).</DESCRIPTION>
+    <FUNCTION>ILoginView::{dtor}</FUNCTION>
+    <DECORATED>??1ILoginView@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>iloginview.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ILoginView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ILoginView::{dtor}</FUNCTION>
+    <DECORATED>??1ILoginView@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class DialogView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>DialogView::{dtor}</FUNCTION>
+    <DECORATED>??1DialogView@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::GetHandle' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::GetHandle</FUNCTION>
+    <DECORATED>?GetHandle@DialogView@@QBEPAUHWND__@@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureString::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureString::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureString@@QBEPBDXZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Don't use pointer arithmetic. Use span instead (bounds.1).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securestring.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'inString': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>&gt;&gt;</FUNCTION>
+    <DECORATED>??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVSecureString@@@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>isettingsview.h</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26443</DEFECTCODE>
+    <DESCRIPTION>Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).</DESCRIPTION>
+    <FUNCTION>ISettingsView::{dtor}</FUNCTION>
+    <DECORATED>??1ISettingsView@@UAE@XZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>isettingsview.h</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class ISettingsView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>ISettingsView::{dtor}</FUNCTION>
+    <DECORATED>??1ISettingsView@@UAE@XZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingsview.h</FILENAME>
+      <LINE>15</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SettingsView::GetUserRequestedAction' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SettingsView::GetUserRequestedAction</FUNCTION>
+    <DECORATED>?GetUserRequestedAction@SettingsView@@UBE?AW4SettingsViewUserRequestedAction@@XZ</DECORATED>
+    <FUNCLINE>15</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>settingsview.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SettingsView::GetRequestedLoggerConfiguration' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SettingsView::GetRequestedLoggerConfiguration</FUNCTION>
+    <DECORATED>?GetRequestedLoggerConfiguration@SettingsView@@UBE?AU?$pair@W4LoggerType@@W4LogFormatType@@@std@@XZ</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginView::{ctor}</FUNCTION>
+    <DECORATED>??0LoginView@@QAE@XZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoginView::Process' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginView::Process</FUNCTION>
+    <DECORATED>?Process@LoginView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 1 'message.hwnd' in call to 'GetMessageA' may be invalid (lifetime.1).</DESCRIPTION>
+    <FUNCTION>LoginView::Process</FUNCTION>
+    <DECORATED>?Process@LoginView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+        <FILENAME>loginview.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'messageIsRetrieved' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>LoginView::Process</FUNCTION>
+    <DECORATED>?Process@LoginView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'LoginView::ShowInvalidLoginWarning' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>LoginView::ShowInvalidLoginWarning</FUNCTION>
+    <DECORATED>?ShowInvalidLoginWarning@LoginView@@UAEXXZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>LoginView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@LoginView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>LoginView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@LoginView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26490</DEFECTCODE>
+    <DESCRIPTION>Don't use reinterpret_cast (type.1).</DESCRIPTION>
+    <FUNCTION>LoginView::DlgProc</FUNCTION>
+    <DECORATED>?DlgProc@LoginView@@CGHPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26414</DEFECTCODE>
+    <DESCRIPTION>Move, copy, reassign or reset a local smart pointer 'password' (r.5).</DESCRIPTION>
+    <FUNCTION>LoginView::ProcessDialogMessages</FUNCTION>
+    <DECORATED>?ProcessDialogMessages@LoginView@@AAEHII@Z</DECORATED>
+    <FUNCLINE>80</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>loginview.cpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26414</DEFECTCODE>
+    <DESCRIPTION>Move, copy, reassign or reset a local smart pointer 'userID' (r.5).</DESCRIPTION>
+    <FUNCTION>LoginView::ProcessDialogMessages</FUNCTION>
+    <DECORATED>?ProcessDialogMessages@LoginView@@AAEHII@Z</DECORATED>
+    <FUNCLINE>80</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

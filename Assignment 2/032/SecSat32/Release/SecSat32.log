@@ -1,0 +1,187 @@
+﻿  ActiveThermalControlSystem.cpp
+  Application.cpp
+  AuthenticationFactory.cpp
+  AuthenticationRepository.cpp
+  BinaryLogger.cpp
+  Cryptography.cpp
+  DialogView.cpp
+  SecureUInt32.cpp
+  TextLogger.cpp
+  LoggerDecorator.cpp
+  LoggerFactory.cpp
+  PermissionChecker.cpp
+  LoggedSatelliteModelFactory.cpp
+  SecureInt32.cpp
+  SecurityExceptionController.cpp
+  GravityAnomalySimulator.cpp
+  Sensor.cpp
+  SatelliteModelLogger.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2539): warning C4239: nonstandard extension used: 'argument': conversion from '_Ty' to 'std::unique_ptr<ILogger,std::default_delete<_Ty>> &'
+          with
+          [
+              _Ty=std::unique_ptr<ILogger,std::default_delete<ILogger>>
+          ]
+          and
+          [
+              _Ty=ILogger
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\memory(2539): note: A non-const reference may only be bound to an lvalue
+  h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitemodellogger.cpp(11): note: see reference to function template instantiation 'std::unique_ptr<LoggerDecorator,std::default_delete<_Ty>> std::make_unique<LoggerDecorator,std::unique_ptr<ILogger,std::default_delete<ILogger>>,const LogFormatType&,0>(std::unique_ptr<ILogger,std::default_delete<ILogger>> &&,const LogFormatType &)' being compiled
+          with
+          [
+              _Ty=LoggerDecorator
+          ]
+  LoginController.cpp
+  LoginResult.cpp
+  Compiling...
+  Compiling...
+  LoginView.cpp
+  Random.cpp
+  SecureDouble.cpp
+  SecureString.cpp
+  SecurityExceptionView.cpp
+  SettingsView.cpp
+  SettingsController.cpp
+  SolarRadiationSimulator.cpp
+  KelvinSimulator.cpp
+  Main.cpp
+  SatelliteController.cpp
+  SatelliteView.cpp
+  SatelliteModel.cpp
+  Subject.cpp
+  Timer.cpp
+  UnitConverter.cpp
+  UserDetails.cpp
+  Compiling...
+  SecSat32.vcxproj -> H:\Year 2 v2\Secure Software\Assignment 2\032\Release\SecSat32.lib
+h:\year 2 v2\secure software\assignment 2\032\secsat32\activethermalcontrolsystem.h(10): warning C26440: Function 'ActiveThermalControlSystem::GetIsActive' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.h(19): warning C26440: Function 'SecureString::GetValue' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.h(37): warning C26485: Expression 'inString': No array to pointer decay (bounds.3).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.h(40): warning C26485: Expression 'inString': No array to pointer decay (bounds.3).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.h(40): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.h(50): warning C26485: Expression 'inString': No array to pointer decay (bounds.3).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\user.h(12): warning C26440: Function 'User::GetRole' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\user.h(13): warning C26440: Function 'User::SetRole' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\subject.h(11): warning C26432: If you define or delete any default operation in the type 'class Subject', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\iloginview.h(11): warning C26443: Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\iloginview.h(11): warning C26432: If you define or delete any default operation in the type 'class ILoginView', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\dialogview.h(11): warning C26432: If you define or delete any default operation in the type 'class DialogView', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\dialogview.h(21): warning C26440: Function 'DialogView::GetHandle' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginresult.h(13): warning C26440: Function 'LoginResult::GetIsSuccess' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\iobserver.h(9): warning C26432: If you define or delete any default operation in the type 'class IObserver', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\isatelliteview.h(12): warning C26443: Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\isatelliteview.h(12): warning C26432: If you define or delete any default operation in the type 'class ISatelliteView', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.h(21): warning C26440: Function 'SatelliteView::GetUserRequestedAction' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securedouble.h(12): warning C26440: Function 'SecureDouble::GetValue' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitemodel.h(17): warning C26440: Function 'SatelliteModel::GetTemperature' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitemodel.h(18): warning C26440: Function 'SatelliteModel::GetSolarRadiationReading' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitemodel.h(19): warning C26440: Function 'SatelliteModel::GetGravityAnomalyReading' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitemodel.h(20): warning C26440: Function 'SatelliteModel::GetIsOperational' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitemodel.h(21): warning C26440: Function 'SatelliteModel::GetIsOutOfOperatingTemperatureRange' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\userdetails.h(17): warning C26440: Function 'UserDetails::GetRole' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\userdetails.h(18): warning C26440: Function 'UserDetails::GetIsValid' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\secureint32.h(11): warning C26440: Function 'SecureInt32::GetValue' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\authenticationrepository.cpp(14): warning C26426: Global initializer calls a non-constexpr function 'SecureString::SecureString' (i.22).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\authenticationrepository.cpp(16): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\authenticationrepository.cpp(21): warning C26444: Avoid unnamed objects with custom construction and destruction (es.84).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\authenticationrepository.cpp(38): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\authenticationrepository.cpp(178): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\ilogger.h(7): warning C26432: If you define or delete any default operation in the type 'class ILogger', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\cryptography.cpp(15): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\cryptography.cpp(43): warning C26496: The variable 'pepper' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\cryptography.cpp(56): warning C26472: Don't use a static_cast for arithmetic conversions. Use brace initialization, gsl::narrow_cast or gsl::narrow (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\dialogview.cpp(3): warning C26440: Function 'DialogView::DialogView' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\dialogview.cpp(12): warning C26496: The variable 'messageIsRetrieved' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\dialogview.cpp(7): warning C26440: Function 'DialogView::Process' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\dialogview.cpp(12): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 1 'message.hwnd' in call to 'GetMessageA' may be invalid (lifetime.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\dialogview.cpp(23): warning C26440: Function 'DialogView::Close' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\secureuint32.h(11): warning C26440: Function 'SecureUInt32::GetValue' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\secureuint32.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\secureuint32.cpp(8): warning C26440: Function 'SecureUInt32::SecureUInt32' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\secureuint32.cpp(12): warning C26440: Function 'SecureUInt32::operator=' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loggerdecorator.cpp(7): warning C26440: Function 'LoggerDecorator::LoggerDecorator' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\permissionchecker.cpp(5): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitemodellogger.h(22): warning C26440: Function 'SatelliteModelLogger::SetModel' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loggedsatellitemodelfactory.cpp(10): warning C26426: Global initializer calls a non-constexpr function 'SatelliteModelLogger::SatelliteModelLogger' (i.22).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\secureint32.cpp(5): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\secureint32.cpp(9): warning C26440: Function 'SecureInt32::SecureInt32' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\secureint32.cpp(13): warning C26440: Function 'SecureInt32::operator=' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securityexceptioncontroller.cpp(4): warning C26440: Function 'SecurityExceptionController::SecurityExceptionController' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\sensor.h(12): warning C26443: Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\sensor.h(12): warning C26432: If you define or delete any default operation in the type 'class Sensor', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\sensor.h(16): warning C26440: Function 'Sensor::GetReading' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\gravityanomalysimulator.cpp(5): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginresult.cpp(3): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginresult.cpp(7): warning C26440: Function 'LoginResult::LoginResult' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginresult.cpp(11): warning C26432: If you define or delete any default operation in the type 'struct LoginResult', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginresult.cpp(11): warning C26440: Function 'LoginResult::LoginResult' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\isettingsview.h(14): warning C26443: Overriding destructor should not use explicit 'override' or 'virtual' specifiers (c.128).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\isettingsview.h(14): warning C26432: If you define or delete any default operation in the type 'class ISettingsView', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\settingsview.h(15): warning C26440: Function 'SettingsView::GetUserRequestedAction' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\settingsview.h(16): warning C26440: Function 'SettingsView::GetRequestedLoggerConfiguration' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(7): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(14): warning C26440: Function 'LoginView::Process' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(19): warning C26486: Don't pass a pointer that may be invalid to a function. Parameter 1 'message.hwnd' in call to 'GetMessageA' may be invalid (lifetime.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(19): warning C26496: The variable 'messageIsRetrieved' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(48): warning C26440: Function 'LoginView::ShowInvalidLoginWarning' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(61): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(62): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(67): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(102): warning C26414: Move, copy, reassign or reset a local smart pointer 'password' (r.5).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\loginview.cpp(91): warning C26414: Move, copy, reassign or reset a local smart pointer 'userID' (r.5).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\random.cpp(7): warning C26426: Global initializer calls a non-constexpr function 'std::random_device::random_device' (i.22).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\random.cpp(8): warning C26426: Global initializer calls a non-constexpr function 'std::random_device::operator()' (i.22).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\random.cpp(8): warning C26426: Global initializer calls a non-constexpr function 'std::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253>::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253>' (i.22).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\random.cpp(12): warning C26496: The variable 'distribution' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\random.cpp(18): warning C26496: The variable 'distribution' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securedouble.cpp(5): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securedouble.cpp(9): warning C26440: Function 'SecureDouble::SecureDouble' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securedouble.cpp(13): warning C26440: Function 'SecureDouble::operator=' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securedouble.cpp(19): warning C26432: If you define or delete any default operation in the type 'class SecureDouble', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securedouble.cpp(65): warning C26440: Function 'SecureDouble::ClearFlags' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(6): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(6): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(15): warning C26432: If you define or delete any default operation in the type 'class SecureString', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(17): warning C26447: The function is declared 'noexcept' but calls function 'Clear()' which may throw exceptions (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(31): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(36): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(42): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(62): warning C26496: The variable 'currentStringSize' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(82): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(72): warning C26429: Symbol 'value' is never tested for nullness, it can be marked as not_null (f.23).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(86): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(90): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(98): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(103): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(106): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(107): warning C26481: Don't use pointer arithmetic. Use span instead (bounds.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(110): warning C26440: Function 'SecureString::Clear' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(118): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securestring.cpp(118): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securityexceptionview.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\securityexceptionview.cpp(15): warning C26440: Function 'SecurityExceptionView::ProcessDialogMessages' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\settingsview.cpp(77): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\settingsview.cpp(157): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\settingsview.cpp(186): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\settingscontroller.cpp(65): warning C26489: Don't dereference a pointer that may be invalid: '&requestedUserRoleChange.first'. 'requestedUserRoleChange.std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,enum Role>::first' may have been invalidated at line 64 (lifetime.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\settingscontroller.cpp(77): warning C26496: The variable 'requestedLoggerConfiguration' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\solarradiationsimulator.cpp(5): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitecontroller.cpp(105): warning C26496: The variable 'temperatureReading' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(10): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(33): warning C26440: Function 'SatelliteView::ShowTemperatureWarning' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(38): warning C26440: Function 'SatelliteView::HideTemperatureWarning' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(56): warning C26440: Function 'SatelliteView::IndicateATCSPermissionDenied' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(64): warning C26440: Function 'SatelliteView::IndicateSelfDestructPermissionDenied' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(71): warning C26440: Function 'SatelliteView::IndicateSettingsPermissionDenied' can be declared 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(85): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(86): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(91): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(123): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(126): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satelliteview.cpp(118): warning C26490: Don't use reinterpret_cast (type.1).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\satellitemodel.cpp(11): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\subject.cpp(22): warning C26429: Symbol 'observer' is never tested for nullness, it can be marked as not_null (f.23).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\timer.cpp(3): warning C26432: If you define or delete any default operation in the type 'class Timer', define or delete them all (c.21).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\timer.cpp(5): warning C26447: The function is declared 'noexcept' but calls function 'Stop()' which may throw exceptions (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\userdetails.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\032\secsat32\userdetails.cpp(13): warning C26432: If you define or delete any default operation in the type 'struct UserDetails', define or delete them all (c.21).

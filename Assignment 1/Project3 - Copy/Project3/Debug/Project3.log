@@ -1,0 +1,7 @@
+﻿  Source.cpp
+h:\year 2 v2\secure software\assignment 1\project3 - copy\project3\source.cpp(133): warning C4018: '<': signed/unsigned mismatch
+h:\year 2 v2\secure software\assignment 1\project3 - copy\project3\source.cpp(147): warning C4018: '<': signed/unsigned mismatch
+h:\year 2 v2\secure software\assignment 1\project3 - copy\project3\source.cpp(161): warning C4018: '<': signed/unsigned mismatch
+Source.obj : error LNK2005: "public: class Logger * __thiscall LoggerFactory::getLogger(void)" (?getLogger@LoggerFactory@@QAEPAVLogger@@XZ) already defined in Logger.obj
+Source.obj : error LNK2005: _main already defined in Logger.obj
+H:\Year 2 v2\Secure Software\Assignment 1\Project3 - Copy\Debug\Project3.exe : fatal error LNK1169: one or more multiply defined symbols found

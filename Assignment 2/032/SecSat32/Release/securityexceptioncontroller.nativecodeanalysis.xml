@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class DialogView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>DialogView::{dtor}</FUNCTION>
+    <DECORATED>??1DialogView@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::GetHandle' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::GetHandle</FUNCTION>
+    <DECORATED>?GetHandle@DialogView@@QBEPAUHWND__@@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securityexceptioncontroller.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecurityExceptionController::SecurityExceptionController' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecurityExceptionController::{ctor}</FUNCTION>
+    <DECORATED>??0SecurityExceptionController@@QAE@V?$unique_ptr@VDialogView@@U?$default_delete@VDialogView@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

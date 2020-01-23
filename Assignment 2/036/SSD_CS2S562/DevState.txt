@@ -1,0 +1,5 @@
+Device State. 
+Internal temperature : 80
+Supply voltage : 140
+Faults : No faults
+

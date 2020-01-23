@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.h</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class DialogView', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>DialogView::{dtor}</FUNCTION>
+    <DECORATED>??1DialogView@@UAE@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::GetHandle' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::GetHandle</FUNCTION>
+    <DECORATED>?GetHandle@DialogView@@QBEPAUHWND__@@XZ</DECORATED>
+    <FUNCLINE>21</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::DialogView' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::{ctor}</FUNCTION>
+    <DECORATED>??0DialogView@@QAE@QAUHWND__@@@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'messageIsRetrieved' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>DialogView::Process</FUNCTION>
+    <DECORATED>?Process@DialogView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>7</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::Process' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::Process</FUNCTION>
+    <DECORATED>?Process@DialogView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26486</DEFECTCODE>
+    <DESCRIPTION>Don't pass a pointer that may be invalid to a function. Parameter 1 'message.hwnd' in call to 'GetMessageA' may be invalid (lifetime.1).</DESCRIPTION>
+    <FUNCTION>DialogView::Process</FUNCTION>
+    <DECORATED>?Process@DialogView@@UBE_NXZ</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+        <FILENAME>dialogview.cpp</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>dialogview.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'DialogView::Close' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>DialogView::Close</FUNCTION>
+    <DECORATED>?Close@DialogView@@UBEXXZ</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

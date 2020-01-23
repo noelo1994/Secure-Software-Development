@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.h</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::GetValue' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::GetValue</FUNCTION>
+    <DECORATED>?GetValue@SecureDouble@@QBENXZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::{ctor}</FUNCTION>
+    <DECORATED>??0SecureDouble@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::SecureDouble' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::{ctor}</FUNCTION>
+    <DECORATED>??0SecureDouble@@QAE@N@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::operator=' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::=</FUNCTION>
+    <DECORATED>??4SecureDouble@@QAEAAV0@N@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class SecureDouble', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>SecureDouble::=</FUNCTION>
+    <DECORATED>??4SecureDouble@@QAEAAV0@V0@@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>h:\year 2 v2\secure software\assignment 2\032\secsat32</FILEPATH>
+      <FILENAME>securedouble.cpp</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'SecureDouble::ClearFlags' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>SecureDouble::ClearFlags</FUNCTION>
+    <DECORATED>?ClearFlags@SecureDouble@@CAXXZ</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,73 @@
+﻿  Auth.cpp
+h:\year 2 v2\secure software\assignment 2\006\coursework\auth.cpp(34): warning C4018: '<': signed/unsigned mismatch
+  AuthInfo.cpp
+  Lake.cpp
+  Main.cpp
+  ProofofID.cpp
+  River.cpp
+  Sea.cpp
+  Sensors.cpp
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(22): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(49): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(177): warning C4305: 'initializing': truncation from 'double' to 'float'
+  User.cpp
+  WaterType.cpp
+  WaterTypeFactory.cpp
+  Compiling...
+  Generating Code...
+  Coursework.vcxproj -> H:\Year 2 v2\Secure Software\Assignment 2\006\Debug\Coursework.exe
+h:\year 2 v2\secure software\assignment 2\006\coursework\proofofid.h(13): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\006\coursework\auth.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\006\coursework\auth.cpp(19): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\auth.cpp(19): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\auth.cpp(27): warning C26402: Return a scoped object instead of a heap-allocated if it has a move constructor (r.3).
+h:\year 2 v2\secure software\assignment 2\006\coursework\auth.cpp(36): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\auth.cpp(36): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\authinfo.cpp(4): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\006\coursework\lake.cpp(5): warning C26433: Function 'Lake::ty' should be marked with 'override' (c.128).
+h:\year 2 v2\secure software\assignment 2\006\coursework\lake.cpp(5): warning C26436: The type 'class Lake' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+h:\year 2 v2\secure software\assignment 2\006\coursework\main.cpp(24): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\main.cpp(24): warning C26400: Do not assign the result of an allocation or a function call with an owner<T> return value to a raw pointer, use owner<T> instead (i.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\main.cpp(35): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\main.cpp(35): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\main.cpp(36): warning C26401: Do not delete a raw pointer that is not an owner<T> (i.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\main.cpp(36): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\main.cpp(25): warning C26429: Symbol 'wtype' is never tested for nullness, it can be marked as not_null (f.23).
+h:\year 2 v2\secure software\assignment 2\006\coursework\river.cpp(6): warning C26433: Function 'River::ty' should be marked with 'override' (c.128).
+h:\year 2 v2\secure software\assignment 2\006\coursework\river.cpp(6): warning C26436: The type 'class River' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sea.cpp(5): warning C26433: Function 'Sea::ty' should be marked with 'override' (c.128).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sea.cpp(5): warning C26436: The type 'class Sea' with a virtual function needs either public virtual or protected non-virtual destructor (c.35).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(6): warning C26426: Global initializer calls a non-constexpr function 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >' (i.22).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(85): warning C6001: Using uninitialized memory 'TemptoSave'.
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(116): warning C26408: Avoid malloc() and free(), prefer the nothrow version of new with delete (r.10).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(130): warning C26408: Avoid malloc() and free(), prefer the nothrow version of new with delete (r.10).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(22): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(97): warning C26493: Don't use C-style casts (type.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(116): warning C26493: Don't use C-style casts (type.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(133): warning C26494: Variable 'tempLoaded' is uninitialized. Always initialize an object (type.5).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(145): warning C26493: Don't use C-style casts (type.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(165): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(24): warning C26496: The variable 'temp' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(49): warning C26496: The variable 'tempF' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(103): warning C26496: The variable 'bytesWritten' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(151): warning C26496: The variable 'bytesRead' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(97): warning C26485: Expression 'TemptoSave': No array to pointer decay (bounds.3).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(145): warning C26485: Expression 'tempLoaded': No array to pointer decay (bounds.3).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(165): warning C26482: Only index into arrays using constant expressions (bounds.2).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(180): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(177): warning C26496: The variable 'currentspeed' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(178): warning C26496: The variable 'counter' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(180): warning C26482: Only index into arrays using constant expressions (bounds.2).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(186): warning C26494: Variable 'distance' is uninitialized. Always initialize an object (type.5).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(192): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(195): warning C26446: Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(188): warning C26496: The variable 'time' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(190): warning C26496: The variable 'count' is assigned only once, mark it as const (con.4).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(192): warning C26482: Only index into arrays using constant expressions (bounds.2).
+h:\year 2 v2\secure software\assignment 2\006\coursework\sensors.cpp(195): warning C26482: Only index into arrays using constant expressions (bounds.2).
+h:\year 2 v2\secure software\assignment 2\006\coursework\user.cpp(10): warning C26455: Default constructor may not throw. Declare it 'noexcept' (f.6).
+h:\year 2 v2\secure software\assignment 2\006\coursework\watertypefactory.cpp(34): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\watertypefactory.cpp(37): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\watertypefactory.cpp(40): warning C26409: Avoid calling new and delete explicitly, use std::make_unique<T> instead (r.11).
+h:\year 2 v2\secure software\assignment 2\006\coursework\watertypefactory.cpp(10): warning C26494: Variable 'waterType' is uninitialized. Always initialize an object (type.5).
+h:\year 2 v2\secure software\assignment 2\006\coursework\watertypefactory.cpp(44): warning C26477: Use 'nullptr' rather than 0 or NULL (es.47).
